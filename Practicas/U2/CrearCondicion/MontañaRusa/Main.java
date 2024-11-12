@@ -2,7 +2,7 @@
 // (a) la edad debe ser mayor a 12 años
 // (b) altura debe ser mayor a 1.30 metros
 
-package CrearCondicion.MontañaRusa;
+package MontañaRusa;
 
 import java.util.Scanner;
 import java.util.Locale;

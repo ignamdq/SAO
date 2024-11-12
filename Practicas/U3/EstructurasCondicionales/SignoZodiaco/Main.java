@@ -3,7 +3,7 @@ Realizar la especificación de un programa que en base a un día y mes de cumple
 indique el signo del zodíaco al que pertenece. Se deberá mostrar el mensaje de error correspondiente en caso de que se ingrese un mes, un día, o una combinación de mes y día (fecha) incorrectas.
 */
 
-package EstructurasCondicionales.SignoZodiaco;
+package SignoZodiaco;
 
 import java.util.Locale;
 import java.util.Scanner;

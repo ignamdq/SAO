@@ -11,7 +11,7 @@ Dicha rutina deberá recibir un entero de 4 dígitos y retornarlo cifrado como s
 Ejemplo: cifrar(2345) debe retornar 1290.
 */
 
-package Practicas.U4.Cifrador;
+package Cifrador;
 
 import java.util.Scanner;
 import java.util.Locale;

@@ -6,7 +6,7 @@ Entrada: 37 52
 Salida: 51, 49, 47, 45, 43, 41, 39, 37
 */
 
-package EstructurasRepetitivas.NumerosImparesDescendentes;
+package NumerosImparesDescendentes;
 
 import java.util.Scanner;
 import java.util.Locale;

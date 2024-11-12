@@ -1,7 +1,7 @@
 // Puede ver la TV si
 // (a) Realizó la tarea, (b) Tocó sus prácticas de piano y (c) Lo hizo de memoria.
 
-package CrearCondicion.VerTV;
+package VerTV;
 
 import java.util.Scanner;
 

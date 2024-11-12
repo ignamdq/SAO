@@ -21,7 +21,7 @@ Ejemplo: Si el cliente paga con tarjeta de crédito y el importe es $78.50,
 entoncesel descuento será del 2%, es decir $1.57 y el monto a abonar será de $76.93.
 */
 
-package EstructurasCondicionales.SupermercadoDescuento;
+package SupermercadoDescuento;
 
 import java.util.Locale;
 import java.util.Scanner;

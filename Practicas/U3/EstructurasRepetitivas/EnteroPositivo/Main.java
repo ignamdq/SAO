@@ -3,7 +3,7 @@ Escribir un programa que valide el ingreso de un número entero positivo.
 Si el número es negativo o cero, el programa debe solicitar el reingreso hasta que el número ingresado sea válido.
 */
 
-package EstructurasRepetitivas.EnteroPositivo;
+package EnteroPositivo;
 
 import java.util.Scanner;
 import java.util.Locale;

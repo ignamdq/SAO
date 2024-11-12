@@ -2,7 +2,7 @@
 // (a) Su nota en las dos evaluaciones parciales es mayor a 7 ó
 // (b) si su nota en el examen final es mayor o igual a 4.
 
-package CrearCondicion.NotaEstudiante;
+package NotaEstudiante;
 
 import java.util.Locale;
 import java.util.Scanner;

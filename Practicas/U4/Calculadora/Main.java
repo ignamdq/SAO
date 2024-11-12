@@ -39,7 +39,7 @@ Recordar que el segundo (2do) parametro !=0
 
 */
 
-package Practicas.U4.Calculadora;
+package Calculadora;
 
 import java.util.Scanner;
 import java.util.Locale;

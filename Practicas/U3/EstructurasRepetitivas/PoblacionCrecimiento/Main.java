@@ -17,7 +17,7 @@
  En 13 años se alcanzará la población esperada.
  
  */
-package EstructurasRepetitivas.PoblacionCrecimiento;
+package PoblacionCrecimiento;
 
 import java.util.Scanner;
 import java.util.Locale;

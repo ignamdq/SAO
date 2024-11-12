@@ -20,7 +20,7 @@ Este ejercicio requiere entender el concepto de modularización, es necesario di
  * 
 */
 
-package Practicas.U4.SuMulPot;
+package SuMulPot;
 
 import java.util.Scanner;
 import java.util.Locale;

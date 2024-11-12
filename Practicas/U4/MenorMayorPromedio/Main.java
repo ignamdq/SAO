@@ -3,7 +3,7 @@
  * Completar los métodos faltantes al código provisto por la cátedra (SaoEjercicio1.java)
 */
 
-package Practicas.U4.MenorMayorPromedio;
+package MenorMayorPromedio;
 
 import java.util.Scanner;
 

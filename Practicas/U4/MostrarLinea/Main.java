@@ -7,7 +7,7 @@ linea(7,’-’); debe mostrar: -------
 linea(10,’#’); debe mostrar : ##########
 
 */
-package Practicas.U4.MostrarLinea;
+package MostrarLinea;
 
 public class Main {
 

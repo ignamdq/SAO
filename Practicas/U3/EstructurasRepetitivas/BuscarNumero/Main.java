@@ -6,7 +6,7 @@
  * 
  */
 
-package EstructurasRepetitivas.BuscarNumero;
+package BuscarNumero;
 
 import java.util.Scanner;
 import java.util.Locale;

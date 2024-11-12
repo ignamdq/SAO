@@ -1,7 +1,7 @@
 // El código es válido si se trata de un número entero de 3 dígitos y capicúa.
 // Capicúa un numero que se lee igual de izquierda a derecha y viceversa.
 
-package CrearCondicion.Capicua;
+package Capicua;
 
 import java.util.Scanner;
 

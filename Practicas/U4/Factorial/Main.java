@@ -1,4 +1,4 @@
-package Practicas.U4.Factorial;
+package Factorial;
 
 public class Main {
 

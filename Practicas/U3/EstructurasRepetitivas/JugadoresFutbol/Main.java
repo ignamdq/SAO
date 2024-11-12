@@ -35,7 +35,7 @@ Cant. de goles según grupos etarios:
 30-36 años: 4
 
 */
-package EstructurasRepetitivas.JugadoresFutbol;
+package JugadoresFutbol;
 
 import java.util.Scanner;
 import java.util.Locale;

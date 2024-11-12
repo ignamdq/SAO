@@ -1,4 +1,4 @@
-package Practicas.U4.Alternante;
+package Alternante;
 
 public class Main {
 

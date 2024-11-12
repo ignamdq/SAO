@@ -13,7 +13,7 @@ del mismo según el porcentaje de respuestas correctas:
 - Nivel regular: Porcentaje >= 50% y < 75%
 - Fuera de nivel: Porcentaje < 50%
 */
-package EstructurasCondicionales.EvaluacionPostulante;
+package EvaluacionPostulante;
 
 import java.util.Locale;
 import java.util.Scanner;
