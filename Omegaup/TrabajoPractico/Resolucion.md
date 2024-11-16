@@ -13,7 +13,9 @@ Se implementa un nuevo método calcularInteresDiario, que calcula el interés di
 En esta etapa, se introduce la lógica para determinar cuál de las aplicaciones evaluadas tiene el mayor interés diario. Esto se logra recorriendo el array interesesDiarios y comparando los valores, almacenando el índice de la aplicación con el interés más alto. Luego, se imprime el número de la mejor aplicación y el valor de su interés diario.
 
 # Mejoras: Verificación de Entradas
-Manejo de excepciones. No se ha implementado aun la validación de entradas en la versión anterior. 
+No se ha implementado aun la validación de entradas en la versión anterior. 
+
+¿Que ocurre cuando se ingresan valores tipo string? ¿abc? 
 
 ```java
 while (!scanner.hasNextInt()) {
@@ -23,3 +25,5 @@ while (!scanner.hasNextInt()) {
 }
 int capitalDisponible = scanner.nextInt();
 ```
+
+cantidadAplicacionesEvaluar ¿Cuantas?

@@ -68,8 +68,7 @@ public class Main_2_2 {
 
     public static double calculoInversion(double capitalDisponible, double topeInversion) {
 
-        return ((topeInversion == -1 || capitalDisponible <= topeInversion)
-                ? capitalDisponible
+        return ((topeInversion == -1 || capitalDisponible <= topeInversion) ? capitalDisponible
                 : Math.min(capitalDisponible, topeInversion));
     }
 

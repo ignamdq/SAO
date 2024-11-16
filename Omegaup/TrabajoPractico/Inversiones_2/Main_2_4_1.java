@@ -5,11 +5,13 @@ package Inversiones_2;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main_2_4 {
+public class Main_2_4_1 {
     public static void main(String[] args) {
 
         // Scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        // Espacio
+        System.out.println(" ");
 
         // capitalDisponible
         System.out.print("Ingresar capitalDisponible: ");
@@ -69,12 +71,15 @@ public class Main_2_4 {
         }
 
         // Buscar el índice de la aplicación con el mayor interés
+
         int mejorAplicacion = 0;
         double maxInteres = interesesDiarios[0];
-
         for (int i = 1; i < cantidadAplicacionesEvaluar; i++) {
+
             if (interesesDiarios[i] > maxInteres) {
+
                 maxInteres = interesesDiarios[i];
+
                 mejorAplicacion = i;
             }
         }

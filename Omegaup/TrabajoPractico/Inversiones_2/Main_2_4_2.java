@@ -1,25 +1,27 @@
-// # Parte 3: Método de Cálculo de Interés Diario
+// # Parte 4: Búsqueda de la Mejor Aplicación (Mayor Interés Diario)
 
 package Inversiones_2;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main_2_3 {
+public class Main_2_4_2 {
     public static void main(String[] args) {
 
         // Scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        // Espacio
+        System.out.println(" ");
 
         // capitalDisponible
-        System.out.print("Ingresar capitalDisponible: ");
+        System.out.print("¿Cúal es tu capital disponible? $");
         int capitalDisponible = scanner.nextInt();
 
         // Espacio
         System.out.println(" ");
 
         // cantidadAplicacionesEvaluar
-        System.out.print("Ingresar cantidadAplicacionesEvaluar: ");
+        System.out.print("¿Cuántas aplicaciones deseas evaluar? ");
         int cantidadAplicacionesEvaluar = scanner.nextInt();
 
         // Espacio
@@ -34,11 +36,12 @@ public class Main_2_3 {
         for (int i = 0; i < cantidadAplicacionesEvaluar; i++) {
 
             // cada tasaNominal de tasasNominales[i]
-            System.out.print("tasaNominal " + (i + 1) + "º App: ");
+            System.out.print("¿Cuál es la Tasa Nominal de la " + (i + 1) + "º App: ");
             tasasNominales[i] = scanner.nextDouble();
 
             // cada topeInversion de inversionTopes[i]
-            System.out.print("topeInversión o (-1) si no tiene " + (i + 1) + "º App: ");
+
+            System.out.print("¿Cuál es el tope de inversión de la " + (i + 1) + "º App: ");
             inversionTopes[i] = scanner.nextDouble();
 
             // inversionTopes
@@ -49,6 +52,7 @@ public class Main_2_3 {
 
             // Espacio
             System.out.println(" ");
+
         }
         // CONSOLA
         System.out.println("----------------");
@@ -67,6 +71,26 @@ public class Main_2_3 {
             System.out.println(" ");
         }
 
+        // Buscar el índice de la aplicación con el mayor interés
+
+        int mejorAplicacion = 0;
+        double maxInteres = interesesDiarios[0];
+        for (int i = 1; i < cantidadAplicacionesEvaluar; i++) {
+
+            if (interesesDiarios[i] > maxInteres) {
+
+                maxInteres = interesesDiarios[i];
+
+                mejorAplicacion = i;
+            }
+        }
+
+        // Imprimir la mejor aplicación
+        System.out.println("La mejor aplicación para invertir es la App " + (mejorAplicacion + 1));
+        System.out.printf("Interés Diario: %.2f%n", maxInteres);
+
+        // Espacio
+        System.out.println(" ");
         scanner.close();
     }
 
