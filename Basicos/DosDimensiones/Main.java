@@ -21,7 +21,6 @@ public class Main {
             }
             System.out.println(); // Salto de línea al final de cada fila
         }
-
         scanner.close();
     }
 }
